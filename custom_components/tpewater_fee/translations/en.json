@@ -1,0 +1,46 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "TpeWater Fee is already configured"
+        },
+        "error": {
+            "connection_error": "Can't connect to TpeWater Fee."
+        },
+        "flow_title": "TpeWater Fee: {name}",
+        "step": {
+            "user": {
+                "data": {
+                    "waterid": "Water ID (Without dash)",
+                    "cookie": "Cookie",
+                    "viewstate": "Viewstate Token",
+                    "eventvalidation": "Eventvalidation Token"
+                },
+                "description": "Please enter connection settings of your TpeWater Fee."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "TpeWater Fee (Without dash)",
+                "data": {
+                    "waterid": "Water ID",
+                    "cookie": "Cookie",
+                    "viewstate": "Viewstate Token",
+                    "eventvalidation": "Eventvalidation Token"
+                }
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "billing_month": "Billing month",
+            "billing_date": "Billing date",
+            "payment": "Payment",
+            "power_consumption": "Power consumption",
+            "next_billing_date": "Next billing date",
+            "billing_amount": "Billing amount",
+            "https_result": "Https result"
+        }
+    }
+}
