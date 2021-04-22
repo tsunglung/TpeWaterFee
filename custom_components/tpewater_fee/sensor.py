@@ -42,8 +42,8 @@ from .const import (
 
 _LOGGER = logging.getLogger(__name__)
 
-MIN_TIME_BETWEEN_FORCED_UPDATES = timedelta(minutes=30)
-MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=45)
+MIN_TIME_BETWEEN_FORCED_UPDATES = timedelta(hours=12)
+MIN_TIME_BETWEEN_UPDATES = timedelta(hours=24)
 
 
 async def async_setup_entry(

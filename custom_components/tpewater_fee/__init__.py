@@ -2,7 +2,7 @@
 import logging
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant, Event
-from .const import DOMAIN, DOMAINS
+from .const import DATA_KEY, DOMAIN, DOMAINS
 
 _LOGGER = logging.getLogger(__name__)
 

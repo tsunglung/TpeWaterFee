@@ -1,4 +1,4 @@
-
+<a href="https://www.buymeacoffee.com/tsunglung" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="30" width="120"></a>
 Home assistant support for TpeWater Fee
 
 The method was provided by [Jason Lee](https://www.dcard.tw/@jas0n.1ee.com).
@@ -26,8 +26,9 @@ You need to grab a cookie and two tokens.
 5. Go to "headers" -> "request headers"
 6. copy the 24 characters like "xwu51weubdalqqkmnlizypxc" starting after "SessionId=" in the field (mark with a mouse and copy to clipboard)
 7. Go to "headers" -> "from data"
-8. copy the 5308 characters like "\wXXXXXXXXXXXX....=" in the field "\__VIEWSTATE:"  (mark with a mouse and copy to clipboard)
-9. copy the 668 characters like "\wXXXXXXXXXXXX....." in the field "\__EVENTVALIDATION:"  (mark with a mouse and copy to clipboard)
+8. copy the > 5308 characters like "\wXXXXXXXXXXXX....=" in the field "\__VIEWSTATE:"  (mark with a mouse and copy to clipboard)
+9. copy the > 668 characters like "\wXXXXXXXXXXXX....." in the field "\__EVENTVALIDATION:"  (mark with a mouse and copy to clipboard)
+   If the lenght of tokens are not right, do querying again.
 
 # Config
 
